@@ -74,7 +74,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  position: absolute;
+  position: static;
 }
 span {
   font-size: 20px;
