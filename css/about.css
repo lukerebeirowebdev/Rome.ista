@@ -19,8 +19,7 @@ html {
 
 
 .img-1,
-.img-2,
-.img-3 {
+.img-2 {
   padding: auto;
   width: 400px;
   height: 700px;
@@ -28,20 +27,24 @@ html {
   text-align: center;
   padding: 50px;
   margin-left: 25%;
+  padding-bottom: 15px;
 }
 
 h3 {
   color: white;
+  text-align: center;
 
 }
 
 p {
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 
 .img-fluid {
   border: white solid;
+  padding-bottom: 15px;
 }
 
 footer {
@@ -51,38 +54,35 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  position: relative;
-  margin-top: 10px;
-  }
-
+  position: static;
+  margin-top: 15px;
+}
 span {
   font-size: 20px;
   color: white;
   text-align: center;
 }
 
-
 .fa {
-  padding: 0;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+padding: 0;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
 }
 .fa:hover {
-  opacity: 0.7;
-  color: aliceblue;
+opacity: 0.7;
+color: aliceblue;
 }
 
 .fa-facebook,
 .fa-twitter,
 .fa-instagram,
 .fa-snapchat {
-  
-  color: black;
+color: black;
 }
 
 a {
-  text-decoration: none !important;
+text-decoration: none !important;
 }
