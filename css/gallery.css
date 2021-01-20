@@ -12,7 +12,7 @@ html {
 
 .nav-link {
   text-align: center !important;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h1 {
@@ -23,14 +23,16 @@ h1 {
 }
 .gallery {
   justify-content: center;
+  text-align: center;
 }
 
 .gallery img {
   width: 350px;
   filter: grayscale(100%);
   transition: 1s;
-  margin: 5px;
+  margin: 8px;
   border: white solid;
+  text-align: center;
 
 }
 
@@ -69,10 +71,9 @@ span {
   color: aliceblue;
 }
 
-.fa-facebook,
-.fa-twitter,
-.fa-instagram,
-.fa-snapchat {
+
+.fa-instagram
+ {
   
   color: black;
 }
